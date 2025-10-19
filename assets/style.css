@@ -143,7 +143,6 @@ body {
 .sub1__img {
     height: 49.26vh;
     border-radius: 15rem;
-    
 }
 
 .sub1__circuloIMG {
@@ -153,8 +152,8 @@ body {
     height: 49.26vh;
     border-radius: 15rem;
     z-index: -1;
-    left: 55%;
-    width: 336.562px;
+    left: 54.1%;
+    width: 320px;
 }
 
 /* SEÇÃO 2 */
