@@ -40,7 +40,6 @@ body {
 .header__links a{
     text-decoration: none;
     color: black;
-    font-weight: 600;
     padding: 1rem 2rem;
     border-radius: 1em;
     box-shadow: 5px 10px 40px #3b83f610;
@@ -126,10 +125,13 @@ body {
     transition: 1s;
 }
 
+.main__sub2 {
+    width: 100%;
+}
+
 .sub2__img {
-    width: 467.71px;
-    height: 532px;
-    border-radius: 2rem;
+    height: 49.26vh;
+    border-radius: 15rem;
 }
 
 /* RODAPÉ */
