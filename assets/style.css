@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+  /*font-family: "Montserrat", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-family: "Outfit", sans-serif;*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    height: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+.conteiner__header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color: #d6d4d425;
+    box-shadow: 5px 10px 40px #3b83f610;
+}
+
+.header__lista {
+    display: flex;
+    gap: 5rem;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header__links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 1em;
+    box-shadow: 5px 10px 40px #3b83f610;
+}
+
+.header__links a:hover {
+    color: white;
+    background-color: #3B82F6;
+    transition: 1s;
+}
+
+/* MAIN DO SITE */
+
+.conteiner__main {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    margin: 3% 22%;
+    border-radius: 2rem;
+    padding: 0rem 2rem;
+    box-shadow: 5px 10px 40px #3b83f610;
+}
+
+.main__sub1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
+    margin: 2%;
+}
+
+.main__titulo {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.main__titulo__sub {
+    color: #355b97;
+}
+
+.main__texto {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.sub1__link {
+    display: flex;
+    gap: 2rem;
+}
+
+.sub1__link__links {
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    background-color: #3B82F6;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sub1__link__links:nth-child(1):hover {
+    background-color: #d6d4d4;
+    color: black;
+    transition: 1s;
+}
+
+.sub1__link__links:nth-child(2):hover {
+    background-color: #d6d4d4;
+    color: black;
+    transition: 1s;
+}
+
+.sub1__link__links:last-child {
+    background-color: #d6d4d4;
+    color: black;
+}
+
+.sub1__link__links:last-child:hover {
+    color: white;
+    background-color: #3B82F6;
+    transition: 1s;
+}
+
+.sub2__img {
+    width: 467.71px;
+    height: 532px;
+    border-radius: 2rem;
+}
+
+/* RODAPÉ */
+
+.rodape__home {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.rodape__home p {
+    display: flex;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    padding: 20px;
+}
